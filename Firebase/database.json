@@ -1,0 +1,43 @@
+{
+  "id" : 3,
+  "user_count" : 3,
+  "pending_articles" : [ {
+    "Category" : "OOAD",
+    "Contributor" : "rahilmodi123@gmail.com",
+    "Keyword" : "Use Case",
+    "Name" : "Use Case Diagram for OOADSE",
+    "location" : "https://drive.google.com/file/d/1_AbojxswwVg-YGhqKi45ojlEpoWmCHEy/preview"
+  },{
+    "Category" : "OOAD",
+    "Contributor" : "rahilmodi123@gmail.com",
+    "Keyword" : "SRS",
+    "Name" : "SRS Document For Knowledge Repo",
+    "location" : "https://drive.google.com/file/d/13C5ERbwQdicELuNOIQxIZmeqnEH2nBDa/preview?usp=sharing"
+  }],
+  "read_articles" : [ {
+    "Category" : "OOAD",
+    "Contributor" : "rahilmodi123@gmail.com",
+    "Keyword" : "SRS",
+    "Name" : "SRS Document For Knowledge Repo",
+    "location" : "https://drive.google.com/file/d/13C5ERbwQdicELuNOIQxIZmeqnEH2nBDa/preview?usp=sharing"
+  }, {
+    "Category" : "CNS",
+    "Contributor" : "rahilmodi123@gmail.com",
+    "Keyword" : "Network Security",
+    "Name" : "SEED LABS Manual for CNS",
+    "location" : "https://drive.google.com/file/d/1N6447YaONxigw__cMk_4lscijvjMmaK2/preview?usp=sharing"
+  } ],
+  "users" : [ {
+    "email" : "sooryanathit@gmail.com",
+    "name" : "Sooryanath I T",
+    "role" : "Reader"
+  }, {
+    "email" : "rahilmodi123@gmail.com",
+    "name" : "Rahil N Modi",
+    "role" : "Contributor"
+  }, {
+    "email" : "nhimanshujain@gmail.com",
+    "name" : "Himanshu",
+    "role" : "Moderator"
+  } ]
+}

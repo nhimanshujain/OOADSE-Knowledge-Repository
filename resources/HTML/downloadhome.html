@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welcome Home 
+	</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Home.css">
+
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+</head>
+<body>
+
+	<h6 id = "Title" >Knowledge Repository </h6>
+
+	<div id = "search_box">
+
+		<input type="text" id="myInput" placeholder="Search for articles">
+		<br>
+		<button type = "submit" id = "categoryBtn" name = "Category">
+			<b>Category</b>			
+		</button>
+		<button type = "submit" id = "KeywordBtn" name = "Keyword">
+			<b>Keyword</b>			
+		</button>
+		<button  id = "ClearBtn" name = "Clear">
+			<b>Clear</b>			
+		</button>
+
+	</div>
+	
+	<ul id="DynamicResultsList">
+		
+
+	</ul>
+
+	
+	<script type="text/javascript" src = "..\JS\downloadhome.js"></script>
+</body>
+</html>

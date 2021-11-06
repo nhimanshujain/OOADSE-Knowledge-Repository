@@ -1,0 +1,99 @@
+body{
+				background :  url("../MISC/background.png") ;
+
+}
+
+			
+#Title {
+
+	text-align:  center ;
+	font-family: Garamond, serif;
+	font-size:  40px ;
+	color: white ;
+}
+
+.AuthBox{
+
+	text-align : center ;
+	width : 400px;
+	height : 470px;
+	background-color: white;
+	margin-left : 560px;
+	margin-right : 400px;
+	margin-top : 40px;	
+    transition: all 0.4 ease-in-out;
+
+}
+
+#email{
+
+	height : 50px;
+	width : 350px;
+	text-align: center;
+	font-family: Garamond, serif;
+	margin-top : 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#password{
+	height : 50px;
+	width : 350px;
+	text-align: center;
+	font-family: Garamond, serif;
+	margin-top : 10px;
+	margin-bottom: 10px;
+}
+
+.radio-btn{
+
+	text-align : center ;
+	margin-top : 5px;
+	font-family: Garamond, serif;
+	margin-bottom : 5px;
+	padding-left: 10px;
+	
+}
+
+#choice{
+
+	width : 10px;
+	height : 10px;
+	cursor: pointer;
+	padding: 10px 10px ;
+}
+
+#submitBtn
+{
+	  opacity: 0.8;
+	  margin-top : 20px;
+	  height : 50px;
+	  width : 330px;
+	  text-align: center;
+	  cursor: pointer;	  
+	  background-color: #4876FF ;
+}
+
+#submitBtn:hover{
+	transition: all 0.4s ;  
+  	transform:scale(1.15);
+}
+
+#submitBtn2
+{
+	  opacity: 0.8;
+	  margin-top : 20px;
+	  height : 50px;
+	  width : 330px;
+	  text-align: center;
+	  cursor: pointer;	  
+	  background-color: #4876FF ;
+}
+
+#submitBtn2:hover{
+	transition: all 0.4s ;  
+  	transform:scale(1.15);
+}
+
+
+

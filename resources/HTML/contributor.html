@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welcome to Contributor Page
+	</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/contributor.css">
+
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+</head>
+<body>
+
+	<h6 id = "Title" >Knowledge Repository </h6>
+
+	<h4 id = "Title" >Role: Contributor </h4>
+
+
+
+	<div id = "search_box">
+		
+		<input type="text" id="myName" placeholder="Enter the name of the article"> <br>
+		<input type="text" id="myCategory" placeholder="Enter the category for the article"> <br>
+		<input type="text" id="myKeyword" placeholder="Enter the keyword for the article"> <br>
+		<input type="text" id="myUpload" placeholder="Enter the link of the article">
+		<button type = "submit" id = "UploadBtn" name = "Upload">
+			<b>Upload</b>			
+		</button>
+		<button  id = "ClearBtn1" name = "Clear">
+			<b>Clear</b>			
+		</button>
+		<br><br>
+
+		<input type="text" id="myInput" placeholder="Search for your articles">
+		<button type = "submit" id = "pendingBtn" name = "Pending_Articles">
+			<b>Pending Articles</b>			
+		</button>
+		<button type = "submit" id = "approvedBtn" name = "Approved_Articles">
+			<b>Approved Articles</b>			
+		</button>
+		<button  id = "ClearBtn" name = "Clear">
+			<b>Clear</b>			
+		</button>
+		<br>
+
+		<ul id="DynamicResultsList">
+		
+
+		</ul>
+		<br><br>
+
+	</div>
+
+
+	
+	<script type="text/javascript" src = "..\JS\contributor.js"></script>
+</body>
+</html>
