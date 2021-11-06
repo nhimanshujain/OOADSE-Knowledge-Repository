@@ -1,2 +1,2 @@
 # OOADSE-Knowledge-Repository
-Software development of Knowledge Repository (Wikipedia) by following SDLC
+Repository for OOAD & SE mini project - 2021 - SEM 6
